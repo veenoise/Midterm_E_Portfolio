@@ -1,0 +1,112 @@
+.container-full-intro {
+    max-height: calc(100dvh - 56px) !important;
+    height: calc(100dvh - 56px) !important;
+}
+
+main {
+    min-height: 100dvh;
+}
+
+.bg-color-white {
+    background-color: #e4fde1;
+}
+
+.bg-color-black {
+    background-color: #001011;
+}
+
+.bg-color-primary {
+    background-color: #db504a !important;
+}
+.bg-color-green-900 {
+    background-color: #477A1E;
+}
+
+.bg-color-green-800 {
+    background-color: #70B237;
+}
+
+.bg-color-green-700 {
+    background-color: #8FCA5C;
+}
+
+.bg-color-brown-900 {
+    background-color: #61371F;
+}
+
+.bg-color-brown-800 {
+    background-color: #854F2B;
+}
+
+.bg-color-brown-700 {
+    background-color: #C28340;
+}
+
+.bg-color-red-900 {
+    background-color: #370000;
+}
+
+.bg-color-red-800 {
+    background-color: #520000;
+}
+
+.bg-color-red-700 {
+    background-color: #6C0000;
+}
+
+.bg-color-red-600 {
+    background-color: #840000;
+}
+
+.bg-color-red-500 {
+    background-color: #950000;
+}
+
+.bg-color-yellow-900 {
+    background-color: #ABB270;
+}
+
+.bg-color-yellow-800 {
+    background-color: #CDCF96;
+}
+
+.bg-color-black-700 {
+    background-color: #1B131F;
+}
+
+.bg-color-brown-500 {
+    background-color: #5D4652;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+#introduction {
+    position: relative;
+}
+
+#grimace {
+    position: absolute;
+    bottom: 10px;
+    right: -5%;
+    transform: rotate(-25deg);
+    z-index: 100;
+}
+
+#intro-text {
+    position: relative;
+    z-index: 1000;
+}
+
+.trigger-flint-and-steel, a > img.portal-enabled {
+    cursor: url('./flint_and_steel.png'), auto;
+}
+
+textarea {
+    resize: none;
+}
+
+#sendBtn:hover {
+    background-color: #1B131F;
+}

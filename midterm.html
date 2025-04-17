@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midterm</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body class="bg-color-white">
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-md bg-color-red-800 position-fixed w-100" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="#">William Chua</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav d-flex align-items-center column-gap-3">
+                        <li class="nav-item d-flex align-items-center gap-1">
+                            <img src="./grass_block.webp" height="25" alt="grass block">
+                            <a class="nav-link text-white" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item d-flex align-items-center gap-1">
+                            <img src="./obsidian.webp" height="25" alt="obsidian block">
+                            <a class="nav-link fw-semibold text-white" href="#">Midterm</a>
+                        </li>
+                        <li class="nav-item d-flex align-items-center gap-1">
+                            <img src="./end_stone.webp" height="25" alt="end stone block">
+                            <a class="nav-link text-white" href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="bg-color-red-500 text-white">
+        <section class="container-fluid py-5" id="selection">
+            <div class="d-flex gap-3 justify-content-center pt-4">
+                <button type="button" class="btn btn-success" id="survival">Survival mode</button>
+                <button type="button" class="btn btn-danger" id="hardCore">Hardcore mode</button>
+            </div>
+        </section>
+        <section id="easyMode">
+            <section class="container pb-5" id="quiz">
+                <h2 class="fs-2 text-center mb-3">Quizzes</h2>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body h-100">
+                                <h3 class="card-title fs-3">Quiz #1</h3>
+                                <div>
+                                    <img src="./quiz_1.png" class="img-fluid rounded" alt="quiz_1" loading="lazy">
+                                    <p>This is a face-to-face quiz. I learned about basic HTML syntax.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="container pb-5" id="activity">
+                <h2 class="fs-2 text-center mb-3">Activities</h2>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body h-100">
+                                <h3 class="card-title fs-3">About Me</h3>
+                                <div>
+                                    <img src="./about_me.jpg" class="img-fluid rounded" alt="about me" loading="lazy">
+                                    <p>I was able to put focus on what I want to learn for this semester.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body h-100">
+                                <h3 class="card-title fs-3">Assignment #1 - Web Development</h3>
+                                <div>
+                                    <img src="./assignment_1.jpg" class="img-fluid rounded" alt="assignment_1"
+                                        loading="lazy">
+                                    <p>I had to handwrite the answers in a yellow pad. I learned about wed development
+                                        principles.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body h-100">
+                                <h3 class="card-title fs-3">Activity #1 - HTML Text and Images</h3>
+                                <div>
+                                    <img src="./activity_1.png" class="img-fluid rounded" alt="activity_1"
+                                        loading="lazy">
+                                    <p>I wrote some basic HTML. I learned how to do grids and rows.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body h-100">
+                                <h3 class="card-title fs-3">Activity #2 - HTML Tags</h3>
+                                <div>
+                                    <img src="./activity_2.png" class="img-fluid rounded" alt="activity_2"
+                                        loading="lazy">
+                                    <p>I wrote some basic HTML with table. I learned how to use tables and formatting
+                                        properties.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body h-100">
+                                <h3 class="card-title fs-3">Activity #3 - Building a Personal Portfolio Page Using
+                                    Bootstrap</h3>
+                                <div>
+                                    <img src="./activity_3.png" class="img-fluid rounded" alt="activity_3"
+                                        loading="lazy">
+                                    <p>I utilized bootstrap in creating my personal web portfolio. I learned how to add
+                                        GIFs in the background and how to use bootstrap.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body h-100">
+                                <h3 class="card-title fs-3">Activity #4 - Responsive Restaurant Website (Group Activity)
+                                </h3>
+                                <div>
+                                    <img src="./activity_4.png" class="img-fluid rounded" alt="activity_4"
+                                        loading="lazy">
+                                    <p>This is a group project where teamwork is needed. I learned how to communicate
+                                        effectively so we can complete the task on time.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body h-100">
+                                <h3 class="card-title fs-3">Activity #5 - Event or Conference Webpage</h3>
+                                <div>
+                                    <img src="./activity_5.png" class="img-fluid rounded" alt="activity_5"
+                                        loading="lazy">
+                                    <p>I really like this project because I added some css animations. I learned how to
+                                        control svg and animate them individually.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body h-100">
+                                <h3 class="card-title fs-3">Activity #6 - Combined Operators using Javascript</h3>
+                                <div>
+                                    <img src="./activity_6.jpg" class="img-fluid rounded" alt="activity_6"
+                                        loading="lazy">
+                                    <p>This is a basic javascript activity utilizing operators. I learned how to use
+                                        javascript and its different concepts.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="container pb-5 visually-hidden" id="command">
+            <audio id="audioClick">
+                <source src="./minecraft_click.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+            <div class="w-100 d-flex justify-content-between gap-3">
+                <input type="text" placeholder="Use /help to list commands"
+                    class="w-100 text-white bg-black rounded px-2" id="textInput">
+                <button type="submit" class="btn btn-light" id="submitBtn">submit</button>
+            </div>
+            <div id="commandContent">
+
+            </div>
+        </section>
+    </main>
+    <footer class="bg-color-red-600 py-4 text-white">
+        <div class="container">
+            <ul class="border-bottom border-dark nav d-flex justify-content-center pb-3 mb-3">
+                <li class="nav-item">
+                    <a href="./index.html" class="nav-link text-white">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-white">Midterm</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./contact.html" class="nav-link text-white">Contact</a>
+                </li>
+            </ul>
+            <p class="text-center mb-0">© 2025 William Chua</p>
+        </div>
+
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+    <script src="./midterm.js"></script>
+</body>
+
+</html>
