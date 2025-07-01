@@ -16,7 +16,7 @@ const answers = {
         '<p>activity    [activity_#]    -    returns the downloadable URL of the activity</p>',
         '<p>Example: activity activity_1</p>',
         '<p>quiz    [quiz_#]    -    returns the downloadable URL of the quiz</p>',
-        '<p>Example: quiz activity_1</p>'
+        '<p>Example: quiz quiz_1</p>'
     ],
     'activity': {
         'assignment_1': "\

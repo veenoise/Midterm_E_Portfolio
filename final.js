@@ -15,18 +15,26 @@ const answers = {
         '<br>',
         '<p>activity    [activity_#]    -    returns the downloadable URL of the activity</p>',
         '<p>Example: activity final_activity_1</p>',
-        '<p>quiz    [quiz_#]    -    returns the downloadable URL of the quiz</p>',
-        '<p>Example: quiz activity_1</p>'
+        '<p>project    [project_#]    -    returns the downloadable URL of the quiz</p>',
+        '<p>Example: project project_1</p>'
     ],
     'activity': {
-        'final_activity_1': "\
+        'activity_1': "\
             <p>Final_Activity_1: <a href='https://drive.google.com/file/d/19ZOFUEtwmFXp07f6_As3a10YCnlYdYxm/view?usp=sharing' target='_blank' class='text-white'>https://drive.google.com/file/d/19ZOFUEtwmFXp07f6_As3a10YCnlYdYxm/view?usp=sharing</a></p>\
         ",
-        'final_activity_2': "\
+        'activity_2': "\
             <p>Final_Activity_2: <a href='https://drive.google.com/file/d/1ZK56QO1_s10cLs6YuNTAsj-FLnCD-qMP/view?usp=sharing' target='_blank' class='text-white'>https://drive.google.com/file/d/1ZK56QO1_s10cLs6YuNTAsj-FLnCD-qMP/view?usp=sharing</a></p>\
         ",
-        'final_activity_3': "\
+        'activity_3': "\
             <p>Final_Activity_3: <a href='https://drive.google.com/file/d/1uYbfKWX75nT5VcYYfPUPSf2-QkgiRVNM/view?usp=sharing' target='_blank' class='text-white'>https://drive.google.com/file/d/1uYbfKWX75nT5VcYYfPUPSf2-QkgiRVNM/view?usp=sharing</a></p>\
+        "
+    },
+    'project': {
+        'project_1': "\
+            <p>Final_Activity_1: <a href='https://drive.google.com/file/d/1cjVKBfPxqPOGKQ127Y01QqECfZo7Lec8/view?usp=sharing' target='_blank' class='text-white'>https://drive.google.com/file/d/1cjVKBfPxqPOGKQ127Y01QqECfZo7Lec8/view?usp=sharing</a></p>\
+        ",
+        'project_2': "\
+            <p>Final_Activity_2: <a href='https://drive.google.com/drive/folders/1EhvZ9KmvgL9f3PnOq8GXY-jEAJ-8V5Rt?usp=sharing' target='_blank' class='text-white'>https://drive.google.com/drive/folders/1EhvZ9KmvgL9f3PnOq8GXY-jEAJ-8V5Rt?usp=sharing</a></p>\
         "
     }
 }
